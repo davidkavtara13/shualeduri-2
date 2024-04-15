@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body,
+html {
+  width: 1440px;
+  height: 1870px;
+} */
+
+header {
+  width: 1110px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 165px 83px 165px;
+}
+
+header span {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #f16718;
+}
+
+header button {
+  width: 175px;
+  height: 58px;
+  background-color: #e8eff2;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+header button:hover {
+  background-color: #162542;
+  color: white;
+}
+
+.firstRow {
+  display: flex;
+}
+
+.typemaster {
+  width: 445px;
+  height: 312px;
+  margin-left: 165px;
+}
+.typemaster h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 56px;
+  text-align: left;
+  color: #162542;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+.typemaster span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+.typemasterBottom {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.typemasterBottom button {
+  width: 175px;
+  height: 58px;
+  background-color: #f16718;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+.typemasterBottom button:hover {
+  background-color: #ff9b62;
+}
+
+.typemasterBottom h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+  margin-left: 40px;
+}
+
+.firstRow img {
+  width: 540px;
+  height: 480px;
+  margin-left: 125px;
+}
+
+.secondRow {
+  display: flex;
+  margin: 30px 0px 0px 165px;
+}
+
+.images {
+  display: flex;
+}
+.firstImg {
+  width: 255px;
+  height: 480px;
+}
+.secondImg {
+  width: 445px;
+  height: 480px;
+  margin-left: 30px;
+}
+
+.mechanical {
+  width: 255px;
+  height: 265px;
+  text-transform: capitalize;
+  margin: 112px 165px 103px 125px;
+}
+
+.mechanical h2 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+  color: #162542;
+}
+
+.mechanical span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+section {
+  display: flex;
+  margin: 165px 0px 0px 168px;
+}
+
+.firstCard {
+  width: 255px;
+  height: 323px;
+  margin-right: 30px;
+}
+
+.firstCard img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 48px;
+}
+
+.firstCard h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  color: #162542;
+  margin-bottom: 24px;
+}
+
+.firstCard span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+.secondCard {
+  width: 255px;
+  height: 323px;
+  margin-right: 30px;
+}
+
+.secondCard img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 48px;
+}
+
+.secondCard h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  color: #162542;
+  margin-bottom: 24px;
+}
+
+.secondCard span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+.thirdCard {
+  width: 255px;
+  height: 323px;
+  margin-right: 30px;
+}
+
+.thirdCard img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 48px;
+}
+
+.thirdCard h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  color: #162542;
+  margin-bottom: 24px;
+}
+
+.thirdCard span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+.forthCard {
+  width: 255px;
+  height: 323px;
+}
+
+.forthCard img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 48px;
+}
+
+.forthCard h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: left;
+  color: #162542;
+  margin-bottom: 24px;
+}
+
+.forthCard span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+}
+
+footer {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #7b8bad;
+  margin: 128px 600px 39px 568px;
+}
+
+.firstBox {
+  width: 255px;
+  height: 240px;
+  background-color: #e8eff2;
+  position: absolute;
+  top: 196px;
+  left: 1305px;
+  border-radius: 15px;
+}
+
+.secondBox {
+  width: 255px;
+  height: 240px;
+  background-color: #e8eff2;
+  position: absolute;
+  top: 950px;
+  left: -120px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1116px) {
+  .firstBox {
+    display: none;
+  }
+  .secondBox {
+    display: none;
+  }
+  header {
+    width: 689px;
+    height: 58px;
+  }
+  .firstRow img {
+    width: 478px;
+    height: 425px;
+    overflow: hidden;
+    margin-left: 69px;
+  }
+  .secondRow {
+    flex-wrap: wrap;
+  }
+  .firstImg {
+    width: 214px;
+    height: 320px;
+  }
+  .secondImg {
+    width: 445px;
+    height: 320px;
+    margin-right: 40px;
+  }
+  .mechanical {
+    display: flex;
+    width: 689px;
+    height: 108px;
+    margin: 70px 40px 142px 40px;
+  }
+  section {
+    width: 631px;
+    height: 650px;
+    flex-wrap: wrap;
+  }
+  .firstCard {
+    width: 281px;
+    height: 289px;
+  }
+  .secondCard {
+    width: 281px;
+    height: 289px;
+  }
+  .thirdCard {
+    width: 281px;
+    height: 289px;
+  }
+  .forthCard {
+    width: 281px;
+    height: 289px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .firstBox {
+    display: none;
+  }
+  .secondBox {
+    display: none;
+  }
+  header {
+    margin-left: 23px 24px 64px 24px;
+  }
+  .firstRow {
+    flex-direction: column;
+  }
+  .typemaster {
+    width: 327px;
+    height: 286px;
+  }
+  .firstRow img {
+    width: 372px;
+    height: 331px;
+    margin-left: 24px;
+    overflow: hidden;
+  }
+  .firstImg {
+    width: 129px;
+    height: 193px;
+  }
+  .secondImg {
+    width: 220px;
+    height: 193px;
+  }
+}
